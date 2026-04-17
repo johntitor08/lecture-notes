@@ -1,0 +1,19 @@
+A memoryless system is a system whose output at any given time depends only on the input at that same time, and not on past or future input values.
+
+A system is invertible if distinct inputs produce distinct outputs, and there exists an inverse system that can recover the original input from the output.
+
+A causal system is a system whose output at any time depends only on present and past values of the input, and not on future input values.
+
+A system is stable if every bounded input produces a bounded output (BIBO stability).
+
+A system is time-invariant if a time shift in the input signal results in an identical time shift in the output signal, with no change in the system’s behavior.
+
+Memoryless: Output depends only on input at the same time.
+
+Invertible: Original input can be uniquely recovered from the output.
+
+Causal: Output depends only on present and past inputs.
+
+Stable: Bounded input produces bounded output.
+
+Time-invariant: Time shift in input causes same time shift in output.
