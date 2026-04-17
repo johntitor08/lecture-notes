@@ -1,0 +1,25 @@
+Technology: Bilimsel bilginin pratik kullanımıdır.
+
+Innovation: Yeni fikirlerin ekonomik veya sosyal değer yaratacak şekilde uygulanmasıdır.
+
+Invention yeni bir şeyin icadı, innovation ise onun kullanılmasıdır.
+
+Innovation türleri: product, process, business model.
+
+Technology is the application of scientific knowledge to solve practical problems and improve human life.
+
+Innovation is the process of turning new ideas into products, services, or processes that create value.
+
+Invention: creation of a new idea or product.
+
+Innovation: successful implementation of that idea in the market.
+
+Technology provides the tools and knowledge, while innovation uses them to create value and competitive advantage.
+
+Industry 4.0 refers to the fourth industrial revolution where digital technologies transform manufacturing and industry.
+
+Key technologies:
+- Artificial Intelligence.
+- Internet of Things.
+- Automation.
+- Big Data.
