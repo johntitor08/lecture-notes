@@ -1,0 +1,31 @@
+The Tree Abstract Data Type (ADT) is a hierarchical data structure consisting of nodes connected by edges, where each node can have zero or more child nodes and there is a single root node at the top of the hierarchy. It is a non-linear data structure used to represent hierarchical relationships and is fundamental in various areas of computer science, such as file systems, databases, and algorithms. A tree can be empty (null or empty tree) or consist of a root node and one or more subtrees.
+
+Key components of a tree include:
+
+- Node: A fundamental unit containing data and references to its child nodes.
+- Root: The topmost node with no parent.
+- Parent: A node that has one or more child nodes.
+- Child: A node that has a parent node.
+- Leaf (or External Node): A node with no children.
+- Internal Node (or Branch Node): A node with at least one child.
+- Subtree: A tree consisting of a node and all its descendants.
+- Depth: The length of the path from the root to a node, equivalent to the level of the node.
+- Height: The length of the longest downward path from a node to a leaf; the height of the root is the height of the tree.
+- Level: The set of all nodes at a given depth.
+
+Common operations on a tree ADT include inserting a new node, deleting a node, searching for a node, traversing the tree in a specific order (e.g., pre-order, post-order, in-order, or level-order), retrieving the root, checking if the tree is empty, determining the size (number of nodes), and calculating the height.
+
+Trees come in various types, each with specific constraints:
+
+- Binary Tree: Each node has at most two children, referred to as the left and right child.
+- Binary Search Tree (BST): A binary tree where for each node, all elements in the left subtree are less than the node, and all elements in the right subtree are greater.
+- Balanced Binary Tree: A binary tree where the heights of the left and right subtrees of any node differ by at most one, ensuring efficient operations.
+- AVL Tree: A self-balancing binary search tree where the height difference between left and right subtrees is at most one.
+- Red-Black Tree: A self-balancing binary search tree where each node has a color (red or black) used to maintain balance.
+- N-ary Tree: A tree where each node can have more than two children.
+- Trie: A tree-like structure used to store dynamic sets or associative arrays, typically with string keys.
+
+Trees can be represented in multiple ways, such as using linked nodes with parent and child pointers, arrays (e.g., binary heaps), adjacency lists, or even as nested lists or S-expressions in functional programming. The choice of representation depends on the specific use case and performance requirements.
+
+In type theory, a tree ADT can be formally defined using constructors:
+A nil function for an empty forest and a node function that takes a value and a forest of children to create a tree. This formalization allows trees to be treated as inductive types, where a tree is either empty or a node with a value and a list of subtrees.
