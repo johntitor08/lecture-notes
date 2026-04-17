@@ -1,0 +1,35 @@
+İşletim Sistemi Nedir?
+
+Bilgisayarın donanımı (işlemci, bellek, diskler, klavye, ekran gibi parçalar) ile kullanıcı arasında duran bir yönetici programdır.
+
+Görevi: bilgisayarı düzenli, güvenli ve kolay kullanılabilir hale getirmek.
+
+Temel Görevleri:
+
+Kaynakları Paylaştırmak: İşlemci, bellek ve depolama gibi parçaları programlar arasında adil şekilde dağıtır.
+
+Programları Çalıştırmak: Kullanıcıların uygulamalarını sorunsuz çalıştırır.
+
+Güvenliği Sağlamak: Yetkisiz erişimi engeller, verileri korur.
+
+Kolaylık Sunmak: Donanımın karmaşık yapısını gizleyerek kullanıcıya basit bir arayüz sağlar.
+
+Önemli Kavramlar:
+
+Süreç (Process): Çalışan program. İşletim sistemi bunları başlatır, durdurur ve yönetir.
+
+Bellek Yönetimi: Programların ihtiyaç duyduğu alanı ayarlar, gerekirse sanal bellek kullanarak kapasiteyi artırır.
+
+Dosya Sistemi: Verileri dosya ve klasörler halinde düzenler, erişim ve yedeklemeyi kolaylaştırır.
+
+G/Ç Yönetimi: Klavye, ekran, yazıcı gibi cihazlarla iletişimi sağlar. Kullanıcı donanımın karmaşıklığını görmez.
+
+Çalışma Ortamları:
+
+Çoklu Programlama: Birden fazla program aynı anda çalışabilir.
+
+Zaman Paylaşımı: Kullanıcılar bilgisayarı aynı anda etkileşimli şekilde kullanabilir.
+
+Sanallaştırma: Tek bilgisayarda birden fazla işletim sistemi çalıştırılabilir.
+
+Gerçek Zamanlı Sistemler: Örneğin uçak kontrol sistemleri gibi, belirli süre içinde tepki vermek zorunda olan sistemler.

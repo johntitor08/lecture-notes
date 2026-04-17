@@ -1,0 +1,33 @@
+Interprocess Communication (IPC):
+
+Physical:
+
+Bu, iletişimin hangi altyapı üzerinden gerçekleştiğini gösterir:
+
+Paylaşılan bellek (Shared memory): Programlar aynı bellek alanını kullanarak veri paylaşır.
+
+Donanım veri yolu (Hardware bus): Bilgisayarın içindeki bileşenler (CPU, RAM, cihazlar) ortak bir hat üzerinden veri aktarır.
+
+Ağ (Network): Farklı bilgisayarlar arasında veri alışverişi yapılır.
+
+Logical:
+
+Bu, iletişimin nasıl organize edildiğini gösterir:
+
+Doğrudan veya dolaylı (Direct/Indirect):
+
+Doğrudan → Programlar birbirini isimle çağırır.
+
+Dolaylı → Mesajlar posta kutusu (mailbox/port) üzerinden iletilir.
+
+Senkron veya asenkron (Synchronous/Asynchronous):
+
+Senkron → Gönderici, alıcı mesajı alana kadar bekler.
+
+Asenkron → Gönderici mesajı bırakır ve yoluna devam eder.
+
+Otomatik veya açık tamponlama (Automatic/Explicit buffering):
+
+Otomatik → Sistem mesajları sıraya koyar.
+
+Açık → Programcı mesajların nasıl saklanacağını kendisi belirler.

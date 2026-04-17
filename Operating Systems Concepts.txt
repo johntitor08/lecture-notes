@@ -1,0 +1,47 @@
+Süreç (Process): Çalışan bir programın örneğidir. Bellekte ayrılmış bir alanı, program kodunu, verileri ve diğer kaynakları içerir.
+
+İş Parçacığı (Thread): Bir süreç içinde çalışan, bağımsız yürütülebilen en küçük birimdir. Aynı süreç içindeki iş parçacıkları, belleği ve kaynakları paylaşır.
+
+Süreç Yönetimi (Process Scheduling): İşletim sisteminin, çalıştırılacak süreçleri belirleme ve kaynakları (CPU, bellek vb.) bu süreçlere tahsis etme işlemidir.
+
+Bağlam Değişimi (Context Switch): CPU'nun bir süreçten diğerine geçiş yapmasıdır. Mevcut sürecin durumunu kaydeder ve yeni sürecin durumunu yükler.
+
+CPU Yönetimi (CPU Scheduling): CPU'nun hangi sürece ne kadar süreyle tahsis edileceğini belirleyen algoritmalardır.
+
+FCFS (First-Come, First-Served): İlk gelen ilk hizmet alır. Basit ama kısa süreçler uzun süreçlerin arkasında bekleyebilir.
+
+SJF (Shortest Job First): En kısa sürece sahip olan süreç önce çalışır. Ortalama bekleme süresini minimize eder ama sürecin uzunluğunu önceden bilmeyi gerektirir.
+
+Round Robin: Her sürece belirli bir zaman dilimi (quantum) verilir. Süreç, zaman dilimi sonunda tamamlanmazsa sıranın sonuna gönderilir. Adil bir yaklaşımdır.
+
+Kilitlenme (Deadlock): İki veya daha fazla sürecin, birbirlerinin ihtiyaç duyduğu kaynakları beklemesi nedeniyle ilerleyememesi durumudur.
+
+Kilitlenme Koşulları:
+
+Karşılıklı Dışlama (Mutual Exclusion): Bir kaynağın aynı anda sadece bir süreç tarafından kullanılabilmesi.
+
+Bekle ve Tut (Hold and Wait): Bir sürecin bazı kaynakları tutarken, başka süreçlerin tuttuğu kaynakları beklemesi.
+
+Önleme Yok (No Preemption): Bir kaynaktan, onu kullanan süreç tarafından gönüllü olarak bırakılmadıkça el konulamaması.
+
+Dairesel Bekleme (Circular Wait): Bir süreçler zincirinin, her bir sürecin bir sonraki sürecin ihtiyaç duyduğu kaynağı beklemesi.
+
+Bankacı Algoritması (Banker's Algorithm): Kilitlenmeleri önlemek için kullanılan bir kaynak tahsis algoritmasıdır. Sistemdeki kaynakların ve süreçlerin ihtiyaçlarını takip ederek, güvenli bir durumda kalmayı sağlar.
+
+Bellek Yönetimi (Memory Management): İşletim sisteminin, belleği verimli bir şekilde kullanmasını sağlayan tekniklerdir.
+
+Sayfalama (Paging): Belleği, sabit boyutlu sayfalara böler. Süreçler de sayfalara bölünür ve bellekte uygun sayfalara yerleştirilir.
+
+Bölümleme (Segmentation): Belleği, mantıksal olarak ilgili bölümlere (kod, veri, yığın vb.) böler.
+
+Sanal Bellek (Virtual Memory): Süreçlerin, fiziksel bellekten daha büyük bir belleğe sahipmiş gibi çalışmasını sağlar. Disk alanı, bellek gibi kullanılır.
+
+Dosya Sistemleri (File Systems): Dosyaların ve dizinlerin düzenlenmesi, depolanması ve yönetilmesi için kullanılan yapıdır. Dosyalara isim verme, erişim haklarını belirleme, disk üzerinde depolama gibi işlemleri yönetir.
+
+Eş Zamanlama (Synchronization): Birden fazla sürecin veya iş parçacığının, paylaşılan kaynaklara erişimini kontrol etmek ve veri tutarlılığını sağlamak için kullanılan mekanizmalardır.
+
+Semaför (Semaphore): Paylaşılan kaynaklara erişimi kontrol etmek için kullanılan bir sinyal mekanizmasıdır. Bir sayacı vardır ve süreçler bu sayacı artırıp azaltarak kaynaklara erişimi kontrol eder.
+
+Muteks (Mutex): Bir kaynağa aynı anda sadece bir sürecin erişmesini sağlayan bir kilitleme mekanizmasıdır.
+
+Üretici-Tüketici (Producer-Consumer): Bir üretici sürecinin veri ürettiği ve bir tüketici sürecinin bu veriyi tükettiği bir senaryodur. Semaförler veya muteksler kullanılarak, üretici ve tüketici arasındaki eş zamanlama sağlanır (örneğin, bir tamponun dolmasını veya boşalmasını beklemek).

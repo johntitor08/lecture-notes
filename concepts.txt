@@ -1,0 +1,77 @@
+Bilgisayar Sistemi Bileşenleri:
+
+- Donanım (CPU, bellek, I/O aygıtları).
+
+- İşletim sistemi (donanımı yönetir ve koordine eder).
+
+- Uygulama programları (kaynakları kullanıcı problemlerini çözmek için kullanır).
+
+- Kullanıcılar (insanlar, makineler, diğer bilgisayarlar).
+
+İşletim Sisteminin Tanımı ve Amaçları:
+
+Kullanıcı ile donanım arasında aracı programdır.
+
+Kullanıcı programlarını çalıştırmayı kolaylaştırır, sistemi verimli ve kullanışlı hale getirir.
+
+Kaynakları adil ve etkin şekilde tahsis eder, hatalı kullanımın önüne geçer.
+
+Çekirdek (kernel) her zaman çalışan ana programdır.
+
+Bilgisayar Sistemi Organizasyonu:
+
+CPU ve aygıt denetleyicileri ortak veri yoluyla belleğe erişir.
+
+İşletim sistemi kesmeler (interrupts) ile çalışır.
+
+Bellek hiyerarşisi: RAM, ikincil depolama (diskler, SSD), önbellek (cache).
+
+Çoklu İşlem ve Bellek Yönetimi:
+
+Çoklu programlama (multiprogramming) CPU’yu sürekli meşgul tutar.
+
+Zaman paylaşımı (timesharing) kullanıcıların etkileşimli çalışmasını sağlar.
+
+Sanal bellek, belleğe sığmayan süreçlerin çalıştırılmasına imkân verir.
+
+Bellek yönetimi, hangi verinin nerede tutulacağını ve ne zaman taşınacağını belirler.
+
+Süreç Yönetimi:
+
+Süreç, çalışmakta olan programdır.
+
+İşletim sistemi süreç oluşturma, sonlandırma, askıya alma, senkronizasyon ve iletişimden sorumludur.
+
+Tek iş parçacıklı (single-threaded) ve çok iş parçacıklı (multi-threaded) süreçler vardır.
+
+Depolama ve Dosya Yönetimi:
+
+Fiziksel depolamayı soyutlayarak dosya sistemi sunar.
+
+Dosya ve dizin oluşturma, silme, erişim kontrolü, yedekleme gibi görevleri üstlenir.
+
+G/Ç (I/O) Yönetimi:
+
+Donanım farklılıklarını kullanıcıdan gizler.
+
+Ara bellekleme (buffering), önbellekleme (caching), kuyruklama (spooling) gibi teknikler kullanır.
+
+Aygıt sürücüleri ile donanım kontrolünü sağlar.
+
+Koruma ve Güvenlik:
+
+Kaynaklara erişim kontrolü (koruma).
+
+İç ve dış saldırılara karşı savunma (güvenlik).
+
+Kullanıcı kimlikleri, grup kimlikleri ve yetki yükseltme mekanizmaları.
+
+Çeşitli Çalışma Ortamları:
+
+Sanallaştırma (virtualization) ile farklı işletim sistemleri aynı donanımda çalışabilir.
+
+Gerçek zamanlı gömülü sistemler (real-time embedded systems) belirli zaman kısıtlarıyla çalışır.
+
+Kümeleme (clustering) yüksek erişilebilirlik ve performans sağlar.
+
+Çok işlemcili sistemler (multiprocessing) verimlilik ve hata toleransı sunar.

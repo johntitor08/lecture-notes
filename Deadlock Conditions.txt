@@ -1,0 +1,7 @@
+Mutual exclusion (Karşılıklı Dışlama): Bir kaynağın (örneğin, bir dosya, bir bellek alanı) aynı anda yalnızca bir süreç tarafından kullanılabileceği anlamına gelir. Yani, bir süreç bir kaynağı kullanıyorsa, başka hiçbir süreç o kaynağı kullanamaz.
+
+Hold and wait (Tut ve Bekle): Bir sürecin zaten bazı kaynakları tutarken, başka kaynakları beklediği durumu ifade eder. Yani, süreç elindeki kaynakları bırakmadan yeni kaynaklar talep ediyor.
+
+No preemption (Öncelikli Kesme Yok): Bir kaynağın, onu kullanan süreç tarafından gönüllü olarak bırakılmadığı sürece, zorla alınamaması anlamına gelir. Başka bir deyişle, bir süreç bir kaynağı tutuyorsa, başka bir süreç o kaynağa ihtiyaç duyduğunda, kaynağı kullanan süreçten zorla alamaz.
+
+Circular wait (Dairesel Bekleme): Bir grup sürecin, her birinin diğer bir süreç tarafından tutulan bir kaynağı beklediği ve bu beklemenin dairesel bir şekilde oluştuğu durumu ifade eder. Örneğin, süreç A, süreç B'nin tuttuğu kaynağı bekliyor, süreç B, süreç C'nin tuttuğu kaynağı bekliyor ve süreç C, süreç A'nın tuttuğu kaynağı bekliyor.

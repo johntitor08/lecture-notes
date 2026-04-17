@@ -1,0 +1,49 @@
+Süreç Nedir?
+
+Bir program çalışmaya başladığında artık “süreç” adını alır.
+
+Sürecin içinde programın kodu, o anda yaptığı işler, geçici veriler (örneğin fonksiyon içindeki değişkenler), kalıcı veriler ve çalışma sırasında ayrılan bellek bulunur.
+
+Sürecin Hayat Döngüsü:
+
+Yeni: Süreç oluşturuluyor.
+
+Çalışıyor: CPU üzerinde komutlar çalışıyor.
+
+Bekliyor: Bir olayın gerçekleşmesini bekliyor (örneğin dosya açılması).
+
+Hazır: Çalışmaya hazır ama CPU sırasını bekliyor.
+
+Bitmiş: Görevini tamamladı.
+
+Süreçlerin Yönetimi:
+
+İşletim sistemi her süreç için bir “kimlik kartı” tutar (Process Control Block). Burada sürecin durumu, hangi komutta olduğu, ne kadar CPU kullandığı, hangi dosyaları açtığı gibi bilgiler vardır.
+
+CPU bir süreçten diğerine geçtiğinde bu bilgiler kaydedilip yenisi yüklenir. Buna context switch denir.
+
+Süreçlerin Çeşitleri:
+
+Tek iş parçacıklı: Tek bir akışta çalışır.
+
+Çok iş parçacıklı: Aynı anda birden fazla işi paralel yapabilir.
+
+Süreçlerin Oluşturulması ve Sonlandırılması:
+
+Bir süreç başka süreçler yaratabilir (örneğin bir program alt programlar açar). Bu ilişkiler bir “ağaç” gibi düşünülebilir.
+
+UNIX’te fork() komutu yeni süreç yaratır, exec() ise bu sürecin içine yeni bir program yükler.
+
+Süreçler işini bitirdiğinde işletim sistemine “çıkış” (exit()) çağrısı yapar.
+
+Süreçler Arası İletişim (IPC):
+
+Süreçler bazen birbirleriyle konuşmak zorundadır.
+
+Bunun iki yolu vardır:
+
+Paylaşılan bellek: Ortak bir alan üzerinden veri alışverişi.
+
+Mesajlaşma: Süreçler birbirine mesaj gönderip alır.
+
+Örnek: “Üretici–Tüketici” modeli. Biri veri üretir, diğeri tüketir.
